@@ -1,0 +1,55 @@
+<!-- HTML Structure -->
+<div class="top-menu">
+	<div class="left-menu">
+	  <a href="#">Rao vặt</a>
+	  <a href="#">Tư vấn</a>
+	  <a href="#">Hỏi đáp</a>
+	  <a href="#">Hỗ trợ</a>
+	</div>
+	<div class="right-menu">
+	  <a href="#"><i class="cart-icon"></i></a>
+	  <a href="#"><i class="view-icon"></i></a>
+	  <a href="#">Đăng ký</a>
+	  <a href="#">Đăng nhập</a>
+	</div>
+  </div>
+  
+  <!-- CSS for Flexbox -->
+  <style>
+	.top-menu {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  padding: 10px;
+	  background-color: #f8f8f8;
+	}
+  
+	.left-menu a, .right-menu a {
+	  margin: 0 15px;
+	  text-decoration: none;
+	  color: #000;
+	}
+  
+	.right-menu a {
+	  display: flex;
+	  align-items: center;
+	}
+  
+	/* Optional styling for icons */
+	.cart-icon, .view-icon {
+	  width: 20px;
+	  height: 20px;
+	  background-size: contain;
+	  margin-right: 5px;
+	}
+  
+	/* Custom icons */
+	.cart-icon {
+	  background-image: url('cart.png');
+	}
+  
+	.view-icon {
+	  background-image: url('eye.jpg');
+	}
+  </style>
+  
